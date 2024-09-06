@@ -1,0 +1,41 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# PyInstaller
+*.spec
+
+# IDE or editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Configuration files (if containing sensitive data)
+*.env
+
+# Package files
+*.egg
+*.tar.gz
+*.zip
+
+# Exclude the icon file (if it's generated or sensitive)
+assets/icon.ico
