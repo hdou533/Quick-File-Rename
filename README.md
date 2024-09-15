@@ -5,8 +5,11 @@ Quick File Renamer is a Windows application for batch renaming files.
 
 ## Version
 
-1.0
+1.1
 
+### New features
+
+1. Add prefix to all file names
 
 ## Usage Steps
 
@@ -16,12 +19,13 @@ Quick File Renamer is a Windows application for batch renaming files.
 4. Click the "Rename Files" button.
 
 
+
 ## Installation and Packaging
 
 You can use PyInstaller to package the Python script into a `.exe` file:
 
 ```bash
-pyinstaller --onefile --windowed --icon=assets/icon.ico src/main.py
+pyinstaller --onefile --windowed --icon=src/assets/icon.ico --name=Quick-rename main.py
 ```
 
 ## Resources
